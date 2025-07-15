@@ -1,0 +1,9 @@
+<Image
+  src={session.user.image || "/default-avatar.png"} // use default if session.image is missing
+  onError={(e) => (e.currentTarget.src = "/default-avatar.png")} // use default if image load fails
+  width={32}
+  height={32}
+  className="rounded-full"
+  alt="User profile"
+  unoptimized
+/>

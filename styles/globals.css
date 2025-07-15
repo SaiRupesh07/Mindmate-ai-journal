@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🎨 Custom Theme Variables */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* 🌐 Apply the theme and base styles */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ✅ Support mood-based background colors in react-calendar */
+.react-calendar__tile.bg-green-300 {
+  @apply bg-green-300;
+}
+.react-calendar__tile.bg-blue-300 {
+  @apply bg-blue-300;
+}
+.react-calendar__tile.bg-red-300 {
+  @apply bg-red-300;
+}
+.react-calendar__tile.bg-yellow-300 {
+  @apply bg-yellow-300;
+}
+.react-calendar__tile.bg-purple-300 {
+  @apply bg-purple-300;
+}
