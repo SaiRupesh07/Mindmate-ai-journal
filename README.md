@@ -2,9 +2,6 @@
 
 **MindMate AI Journal** is an intelligent, full-stack mental health journaling web app that helps users track their emotional well-being, analyze mood patterns, and chat with an AI-powered support bot. Built using the **MERN stack**, it integrates advanced AI models to provide personalized mental health summaries and emotional support.
 
-> 🌐 Live Demo: [mindmate-client.vercel.app](https://mindmate-client.vercel.app)  
-> 🛠 Backend API: [mindmate-server on Render](https://mindmate-server-gbz8.onrender.com)
-
 ---
 
 ## ✨ Features
